@@ -1,16 +1,16 @@
-# scoop-finradar
+# scoop-bucket
 
 Scoop bucket for FinRadar tools.
 
 ## Install
 
 ```powershell
-scoop bucket add finradar https://github.com/MarounAntoun/scoop-finradar
+scoop bucket add finradar https://github.com/finradar-ai/scoop-bucket
 scoop install finradar
 ```
 
 This installs the `finradar` CLI — a command-line client for the
-[FinRadar](https://uat.finradarapi.com/integrations/cli) REST API.
+[FinRadar](https://api.finradar.ai/integrations/cli) REST API.
 
 ## Update
 
@@ -20,5 +20,5 @@ scoop update finradar
 
 ## Source
 
-Binaries are released from [MarounAntoun/finradar-cli](https://github.com/MarounAntoun/finradar-cli).
+Binaries are released from [finradar-ai/cli](https://github.com/finradar-ai/cli).
 Manifest is patched automatically by the release CI on every `cli-v*` tag.
